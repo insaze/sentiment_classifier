@@ -1,0 +1,4 @@
+bentoml
+transformers
+torch
+requests
