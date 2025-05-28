@@ -22,3 +22,14 @@ curl -X POST http://localhost:3000/classify -H "Content-Type: application/json" 
 ## Метрики
 
 http://localhost:3000/metrics
+
+## Верификация модели до и после деплоймента
+
+```bash
+python verificate_metrics.py
+```
+
+```shell
+Accuracy before deployment: 1
+Accuracy after deployment: 1
+```
